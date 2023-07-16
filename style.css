@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@700&family=Work+Sans:wght@400;600;700&display=swap');
+  
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+/* shared styles */
+.bold-color{
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.gray-font{
+    color: #727272;
+    font-family: Work Sans;
+}
+.primary-btn{
+    border-radius: 8px;
+    background: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    border: none;
+    font-size: 1.25rem;
+}
+/* header styles */
+.header{
+    background: rgba(255, 144, 14, 0.10);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 130px;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-right: 20px;
+    
+}
+.header-title{
+    max-width: 800px;
+    text-align: center;
+    margin: 50px auto;
+}
+.header-title>h1{
+    font-family: Work Sans;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.header-title-container{
+    margin: auto;
+    width: 80%;
+
+}
+img{
+    width: 100%;
+}
