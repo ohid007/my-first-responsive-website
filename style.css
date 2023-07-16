@@ -6,6 +6,10 @@
     font-family: 'Work Sans', sans-serif;
 
 }
+body{
+    margin: 0px;
+    padding: 0px;
+}
 /* shared styles */
 .bold-color{
     color: #131313;
@@ -44,9 +48,8 @@ li{
     
 }
 .header-title{
-    max-width: 800px;
     text-align: center;
-    margin: 50px auto;
+    padding: 30px 50px;
 }
 .header-title>h1{
     font-family: Work Sans;
@@ -54,10 +57,31 @@ li{
     font-weight: 700;
 }
 .header-title-container{
-    margin: auto;
-    width: 80%;
+     padding: 30px 100px;
 
 }
 img{
-    width: 100%;
+   width: 100%; 
+   border-radius: 8px;
+}
+
+
+@media screen and (max-width: 576px) {
+                nav{
+                    flex-direction: column;
+                }
+                nav{
+                    padding: 10px;
+                }
+                .header-title{
+                   padding: 0px;
+                }
+                .header-title-container{
+                    padding: 10px;
+                }
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav{
+        flex-direction: column;
+    }
 }
