@@ -222,6 +222,8 @@ margin: 0px;
     .experience{
         position: static;
         padding: 0px;
+        margin: 0px;
+        width: 95%;
     }
     .logo{
         padding: 50px;
